@@ -1,0 +1,8 @@
+environment:
+  ci_api_token:
+    secure: 1LPrZMb27ISStBneXcUjDA==
+
+build_script:
+  - ps: .\ci\AppVeyorDeploy.ps1
+
+test: off
